@@ -1,10 +1,10 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@mui/icons-material';
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import "./Slider.css";
 import {ApiSlides} from '../api/SliderApi';
 const Slider = () => {
   // Styles
-  const slideStyle = "slide flex items-center justify-center h-[100%]";
+
   const arrowStyle =
     "rounded-full bg-grey flex justify-center items-center shadow-md hover:cursor-pointer";
 
@@ -37,9 +37,10 @@ const Slider = () => {
       {/* Slide */}
 
       {slides.map((slide, index) => {
-        if (index === activeSlide) {
+        if (index === activeSlide) 
+        {
           return (
-            <div>
+            <div key={slide.id}>
                 <img
                   className =""
                   src={slide.src}
@@ -48,7 +49,10 @@ const Slider = () => {
               </div>
           );
         }
-      })}
+        return nextSlide;
+        
+      }
+      )}
       {/* Right Arrow */}
 
       <div className={arrowStyle} onClick={nextSlide}>
