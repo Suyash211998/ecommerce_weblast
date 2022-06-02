@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/eccomerce_website/static/css/main.88b08ad4.css",
+    "main.js": "/eccomerce_website/static/js/main.e6ae1c90.js",
+    "static/media/side2.png": "/eccomerce_website/static/media/side2.de04ed75c7a65e7b9336.png",
+    "static/media/side1.png": "/eccomerce_website/static/media/side1.3098bbb26aef77395856.png",
+    "static/media/side3.png": "/eccomerce_website/static/media/side3.a75bbd0e102f002d6e35.png",
+    "static/media/teeBigO1.jpg": "/eccomerce_website/static/media/teeBigO1.44f662a475aea8a15bb9.jpg",
+    "static/media/tee1.jpg": "/eccomerce_website/static/media/tee1.c2fd8ee4110682d950b6.jpg",
+    "static/media/tee3.webp": "/eccomerce_website/static/media/tee3.63028ac5749aed7deebe.webp",
+    "static/media/tee4.webp": "/eccomerce_website/static/media/tee4.b1394bc4a00c060c220c.webp",
+    "static/media/tee2.jpg": "/eccomerce_website/static/media/tee2.688668b4f417ebaabaf7.jpg",
+    "static/media/TeeBigO2.webp": "/eccomerce_website/static/media/TeeBigO2.2891f70058ff46034d31.webp",
+    "static/media/tee5.webp": "/eccomerce_website/static/media/tee5.23938e7804112c67981d.webp",
+    "static/media/shoes.webp": "/eccomerce_website/static/media/shoes.f10a2428c8ac21ddab8b.webp",
+    "static/media/Shirts.webp": "/eccomerce_website/static/media/Shirts.cb322e593b4ef87d830d.webp",
+    "static/media/jeans.webp": "/eccomerce_website/static/media/jeans.f39503c38f087c9035f1.webp",
+    "static/media/tshirts.webp": "/eccomerce_website/static/media/tshirts.7bccd73fa30c31b9259f.webp",
+    "static/media/trouser1.webp": "/eccomerce_website/static/media/trouser1.7df0676b8442cac3454b.webp",
+    "index.html": "/eccomerce_website/index.html",
+    "main.88b08ad4.css.map": "/eccomerce_website/static/css/main.88b08ad4.css.map",
+    "main.e6ae1c90.js.map": "/eccomerce_website/static/js/main.e6ae1c90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88b08ad4.css",
+    "static/js/main.e6ae1c90.js"
+  ]
+}
