@@ -26,6 +26,25 @@ const Slider = () => {
       setActiveSlide(activeSlide + 1);
     }
   };
+
+  const slideChange= slides.map((slide, index) => {
+    if (index === activeSlide) 
+    {
+      return(
+        <div key={slide.key}>
+      <img
+          className =""
+          src={slide.src}
+          alt={slide.key}
+        />
+      </div>   
+      ) 
+    };
+    return ("");
+    
+  }
+  )
+
   return (
     <div>
     <div className="slider bg-white flex items-center justify-between mobile:hidden">
@@ -35,24 +54,8 @@ const Slider = () => {
       </div>
 
       {/* Slide */}
-
-      {slides.map((slide, index) => {
-        if (index === activeSlide) 
-        {
-          return (
-            <div key={slide.id}>
-                <img
-                  className =""
-                  src={slide.src}
-                  alt="man"
-                />
-              </div>
-          );
-        }
-        return nextSlide;
-        
-      }
-      )}
+      {slideChange}
+      
       {/* Right Arrow */}
 
       <div className={arrowStyle} onClick={nextSlide}>

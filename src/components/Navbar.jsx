@@ -1,13 +1,10 @@
-import { Badge, Search, ShoppingCartOutlined } from '@mui/icons-material'
+import { Badge, Search } from '@mui/icons-material'
 import React from 'react'
 import { Link } from 'react-router-dom';
-
-
-
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function Navbar() {
 
- 
     const style =
     'text-[14px], cursor-pointer, ml-[25px] mobile:ml-[5px]';
 
@@ -57,7 +54,7 @@ function Navbar() {
               <Link to='/Cart'>
               <button >
                 <Badge badgecontent={4} color='primary'>
-                  <ShoppingCartOutlined/>
+                  <ShoppingCartIcon/>
                 </Badge>
                 </button>
                 </Link>
