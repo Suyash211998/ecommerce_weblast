@@ -1,7 +1,7 @@
 {
   "name": "ecommerce",
   "version": "0.1.0",
-  "homepage":"https://github.com/Suyash211998/ecommerce_website.git",
+  "homepage":"https://suyash211998.github.io/eccomerce_website/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
